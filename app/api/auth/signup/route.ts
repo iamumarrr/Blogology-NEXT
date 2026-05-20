@@ -1,5 +1,5 @@
 import { NextResponse, NextRequest } from "next/server";
-import bcrypt from "bcryptjs";
+const bcrypt = require("bcryptjs");
 import connectMongo from "@/lib/mongodb";
 import User from "@/models/User";
 
